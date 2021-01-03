@@ -1,14 +1,14 @@
-package SpringBootTest;
+package com.ofluoglu.stluploadservice;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 
 @SpringBootApplication
-public class SpringBootWebApi {
+public class StlUploadServiceApplication {
 
     public static void main(String[] args){
-        SpringApplication.run(SpringBootWebApi.class ,args);
+        SpringApplication.run(StlUploadServiceApplication.class ,args);
 
 
     }
